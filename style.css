@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.background {
+    background-color: #ffe4c4;
+    font-family: "Courier Prime", sans-serif;
+}
+
+.Navbar {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbutton {
+    color: black;
+    text-decoration: none;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 5px 100px;
+    background: #ff8040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.homepage {
+    color: black;
+    text-decoration: none;
+}
+.img1 {
+    display: block;
+    margin: auto;
+}
+.head1 {
+    text-align: center;
+}
+.text1 {
+    text-align: center;
+    font-weight: 8px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text2 {
+    text-align: center;
+    font-weight: 3px;
+    font-size: 20px;
+}
+.container {
+    margin-left: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container3 {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container5 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.text3 {
+    text-align: center;
+    font-weight: 3px;
+    font-size: 20px;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container4 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container6 {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    padding: 5px 100px;
+    background: #ff8040;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 100;
+}
+.FButton {
+    color: black;
+    text-decoration: none;
+}
